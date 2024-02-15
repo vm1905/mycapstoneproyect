@@ -2,17 +2,24 @@ import logo from './img/logosm.png';
 
 function Nav() {
   return (
-    <nav className='top-menu'>
-      <img src={logo} alt="Logo for Little Lemon" className='logo-sm'></img>
+      <div class="top-bar">
+    <img src={logo} alt="" class="topbar-logo" />
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <ion-icon name="menu-outline"></ion-icon>
+      </label>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservations</li>
-        <li>Order Online</li>
-        <li>Log in</li>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">menu</a></li>
+        <li><a href="">reservations</a></li>
+        <li><a href="">order online</a></li>
+        <li><a href="">log in</a></li>
       </ul>
     </nav>
+  </div>
+
   );
 }
 
