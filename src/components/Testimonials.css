@@ -1,0 +1,80 @@
+.testimonials-section{
+    background-color: white;
+    opacity: 0.8;
+    background-image: radial-gradient(#333333 0.5px, white 0.5px);
+    background-size: 10px 10px;
+  }
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    font-size: 0.9em;
+  }
+  
+  .testimonials .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--yellow);
+    height: 25px;
+  }
+  
+
+
+  /* ---- RESPONSIVE DESIGN ---- */
+@media only screen and (max-width: 1300px) {
+    section {
+      padding: 100px 150px;
+    }
+}
+  
+  
+@media only screen and (max-width: 1060px) {
+    section {
+      padding: 100px 100px;
+    }
+}
+  
+  
+@media only screen and (max-width: 960px) {
+    section {
+      padding: 100px 50px;
+    }
+  
+}
+  
+  
+@media only screen and (max-width: 860px) {
+    section {
+      padding: 100px 50px;
+    }
+  
+    .testimonials {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+}
+  
+  
+@media only screen and (max-width: 600px) {
+    section {
+      padding: 50px 20px;
+    }
+    
+    .testimonials {
+      grid-template-columns: 1fr 1fr;
+    }
+}

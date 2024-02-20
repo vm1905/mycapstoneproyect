@@ -1,17 +1,26 @@
-import Nav from './Nav.js';
-import Header from './Header.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
 import './App.css';
+import Navbar from './components/Navbar';
+import Homepage from './components/Homepage.js';
+import Booking from './components/Booking.js';
+import Login from './components/Login.js';
+import { Routes, Route } from 'react-router-dom';
+import ScrollToTopBtn from './components/ScrollToTopBtn.js';
+
 
 function App() {
+
   return (
-    <div className='container'>
-      <Nav />
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/#about" element={<Homepage />} />
+        <Route path='/#specials' element={<Homepage />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
+      <ScrollToTopBtn />
+    </>
   );
 }
 

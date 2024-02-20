@@ -1,0 +1,122 @@
+header {
+    display: flex;
+     height: 400px;
+    padding: 30px 290px;
+    background: var(--green);
+    color: var(--light-gray);
+  }
+  
+  header h1 {
+    font-size: 64pt;
+    line-height: 48pt;
+    color: var(--yellow);
+    margin-top: 30px;
+  }
+  
+  header h2 {
+    font-size: 40pt;
+    line-height: 24pt;
+    margin: 0 0 20px 0;
+  }
+  
+  header p {
+    margin-bottom: 40px;
+  }
+
+  .header-img-wrapper {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .header-img {
+    width: 264px;
+    height: 399px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  
+  .header-button {
+    margin-bottom: 40px;
+  }
+
+  
+
+/* ---- RESPONSIVE DESIGN ---- */
+
+@media only screen and (max-width: 1300px) {
+    header {
+        padding: 30px 150px;
+    }
+}
+  
+  
+@media only screen and (max-width: 1060px) {
+    header {
+        padding: 30px 100px;
+    }
+}
+  
+  
+@media only screen and (max-width: 960px) {
+    header {
+        padding: 30px 50px;
+    }
+}
+  
+  
+@media only screen and (max-width: 860px) {
+    header {
+        padding: 30px 50px;
+        height: auto;
+    }
+
+    .header-button {
+        margin-bottom: 40px;
+    }
+
+    .header-img-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-img {
+        width: auto;
+    }
+
+}
+  
+  
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 30px 20px;
+    }
+
+    header h1 {
+        font-size: 40pt;
+        line-height: 24pt;
+    }
+
+    header h2 {
+        font-size: 24pt;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    .header-img {
+        width: 264px;
+        height: 399px;
+        overflow: hidden;
+    }
+
+}
+  
+  
+@media only screen and (max-width: 400px) {
+    .header-img {
+        display: none;
+    }
+
+}

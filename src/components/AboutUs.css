@@ -1,0 +1,100 @@
+.about .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .about h1 {
+    font-size: 64pt;
+    line-height: 48pt;
+    color: var(--yellow);
+  }
+  
+  .about h2 {
+    font-size: 40pt;
+    line-height: 24pt;
+    margin: 0 0 20px 0;
+  }
+  
+  .image-stack {
+    display: grid;
+    position: relative;
+    /* imperative for the overlapping to work*/
+    grid-template-columns: repeat(12, 1fr);
+    padding-left: 50px;
+  }
+  
+  .item-bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+  }
+  
+  .item-top {
+    width: 80%;
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 40%;
+    /* slightly arbitrary, keeps proportion once resized*/
+    z-index: 1;
+    /* tells the browser to make this image on top*/
+  }
+  
+  .about img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+
+  /* ---- RESPONSIVE DESIGN ---- */
+@media only screen and (max-width: 1300px) {
+    section {
+      padding: 100px 150px;
+    }
+}
+  
+  
+@media only screen and (max-width: 1060px) {
+    section {
+      padding: 100px 100px;
+    }
+}
+  
+  
+@media only screen and (max-width: 960px) {
+    section {
+      padding: 100px 50px;
+    }
+}
+  
+  
+@media only screen and (max-width: 860px) {
+    section {
+      padding: 100px 50px;
+    }
+}
+  
+  
+@media only screen and (max-width: 600px) {
+    section {
+      padding: 50px 20px;
+    }
+    
+    .about .wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .about h1 {
+      font-size: 40pt;
+      line-height: 24pt;
+    }
+  
+    .about h2 {
+      font-size: 24pt;
+    }
+  
+    .about .image-stack {
+      margin-bottom: 30px;
+      padding-left: 0;
+    }
+}

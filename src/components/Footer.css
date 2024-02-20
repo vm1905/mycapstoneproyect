@@ -1,0 +1,83 @@
+footer {
+    padding: 70px 290px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--charcoal);
+    color: var(--light-gray);
+}
+
+.footer-logo {
+  width: 100px;
+  height: 159px;
+}
+
+footer ul li:first-child {
+  margin-bottom: 20px;
+}
+
+
+footer nav ul li a{
+  color: var(--light-gray);
+  text-transform: capitalize;
+  line-height: 1.9em;
+}
+
+.email {
+  text-transform: lowercase;
+}
+
+
+
+/* ---- RESPONSIVE DESIGN ---- */
+@media only screen and (max-width: 1300px) {
+  footer {
+    padding: 70px 150px;
+  }
+}
+
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    padding: 70px 100px;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  footer {
+    padding: 70px 50px;
+  }
+}
+
+
+@media only screen and (max-width: 860px) {
+  footer {
+    padding: 70px 50px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  footer {
+    padding: 70px 20px;
+  }
+
+  footer {
+    display: grid;
+  }
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  footer nav {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  footer {
+    padding: 70px 20px;
+  }
+}
