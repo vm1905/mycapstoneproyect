@@ -1,0 +1,22 @@
+.bookingConfirmation,
+.dateDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.checkIcon {
+    margin-top: 0;
+    color: var(--green);
+}
+
+.fullName {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.dateDescription {
+    font-weight: 500;
+}

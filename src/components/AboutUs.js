@@ -20,11 +20,11 @@ function AboutUs() {
                         Officiis, autem! Soluta fuga iste veniam repellat. Enim odio ab mollitia earum exercitationem unde sint quod ratione possimus consequatur! Vero rem, eveniet voluptates amet doloremque temporibus quos alias. Aperiam fugit qui adipisci!
                     </p>
                 </div>
-                <div class="image-stack">
-                    <div class="item-top">
+                <div className="image-stack">
+                    <div className="item-top">
                         <img src={Image1} alt="Chef working" />
                     </div>
-                    <div class="item-bottom">
+                    <div className="item-bottom">
                         <img src={Image2} alt="Chefs chatting in the kitchen" />
                     </div>
                 </div>

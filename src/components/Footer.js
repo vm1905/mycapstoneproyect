@@ -4,7 +4,7 @@ import FooterLogo from '../images/logov.jpg';
 function Footer() {
     return(
         <footer>
-        <img src={FooterLogo} alt="" class="footer-logo" />
+        <img src={FooterLogo} alt="" className="footer-logo" />
         <nav>
           <ul>
             <li>about us</li>
@@ -21,7 +21,7 @@ function Footer() {
             <li>contact us</li>
             <li><a href="">123 Main St, Chicago</a></li>
             <li><a href="">(555) 555-5555</a></li>
-            <li><a href="" class="email">littlelemon@email.com</a></li>
+            <li><a href="" className="email">littlelemon@email.com</a></li>
           </ul>
         </nav>
         <nav>

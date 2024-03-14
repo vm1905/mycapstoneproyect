@@ -1,7 +1,4 @@
 import './Specials.css';
-import GreekSalad from '../images/greek_salad.jpg';
-import Bruschetta from '../images/bruschetta.jpg';
-import Dessert from '../images/dessert.jpg';
 import { MdDeliveryDining } from "react-icons/md";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -28,6 +25,7 @@ function Specials() {
           {
             breakpoint: 600,
             settings: {
+              arrows: false,
               slidesToShow: 2,
               slidesToScroll: 1,
               initialSlide: 2
@@ -63,7 +61,7 @@ function Specials() {
                                     </div>
                                     <p>{d.description}</p>
                                     <div className='card-link'>
-                                        <a href="">Order for delivery <span className='delivery-icon'><MdDeliveryDining size={25} /></span></a>
+                                        <a href="#">Order for delivery <span className='delivery-icon'><MdDeliveryDining size={25} /></span></a>
                                     </div>
                                 </div>
                             </div>

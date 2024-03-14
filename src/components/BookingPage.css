@@ -1,0 +1,14 @@
+.booking-header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    background-color: powderblue;
+    display: flex;
+}
+
+.booking-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -16,7 +16,7 @@ function Navbar() {
           <li><Link smooth to="/" className="nav-item">home</Link></li>
           <li><Link smooth to="/#about" className='nav-item'>about</Link></li>
           <li><Link smooth to="/#specials" className='nav-item'>menu</Link></li>
-          <li><Link smooth to="/booking" className='nav-item'>reservations</Link></li>
+          <li><Link smooth to="/booking-page" className='nav-item'>reservations</Link></li>
           <li><Link smooth to="/#specials" className='nav-item'>order online</Link></li>
           <li><Link smooth to="/login" className='nav-item'>login</Link></li>
         </ul>
