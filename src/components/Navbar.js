@@ -19,7 +19,6 @@ function Navbar({ loggedIn, username, onLogout }) {
           <li><Link smooth to="/#specials" className='nav-item' onClick={handleClick}>menu</Link></li>
           <li><Link smooth to="/booking-page" className='nav-item' onClick={handleClick}>reservations</Link></li>
           <li><Link smooth to="/#specials" className='nav-item' onClick={handleClick}>order online</Link></li>
-          {/* <li><Link smooth to="/login" className='nav-item' onClick={handleClick}>login</Link></li> */}
           {loggedIn ? ( // If logged in, display username instead of login
             <li><span className='nav-item logged-user'  onClick={onLogout} title='Click to log out'>{username} <MdLogout className='logout-icon' /></span></li>
           ) : (

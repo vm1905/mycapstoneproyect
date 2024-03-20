@@ -1,5 +1,3 @@
-// BookingPage.js
-
 import { useState, useReducer } from "react";
 import { fetchAPI, submitAPI } from "../BookingAPI";
 import { useNavigate } from 'react-router-dom';
@@ -22,7 +20,6 @@ function BookingPage() {
 
     const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes());
 
-    // State for errors
     const [errors, setErrors] = useState({
         fullName: '',
         email: '',
@@ -32,7 +29,6 @@ function BookingPage() {
         occasion: ''
     });
 
-    // Function to update errors
     const updateErrors = (newErrors) => {
         setErrors(newErrors);
     };

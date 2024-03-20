@@ -34,11 +34,6 @@ function LoginForm({ onLogin }) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you can perform any login/authentication logic
-        console.log('Username:', username);
-        console.log('Password:', password);
-
-        // Call the onLogin function passed from the parent component
         onLogin({ username, password });
         navigate("/welcome", { state: { username } });
 

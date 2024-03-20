@@ -33,9 +33,7 @@
     grid-row: 1;
     grid-column: 1 / span 8;
     padding-top: 40%;
-    /* slightly arbitrary, keeps proportion once resized*/
     z-index: 1;
-    /* tells the browser to make this image on top*/
   }
   
   .about img {
