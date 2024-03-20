@@ -21,6 +21,17 @@
 .top-bar .nav-item {
     color: var(--charcoal);
     padding-left: 15px;
+    cursor: pointer;
+}
+
+.top-bar .logged-user {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.logout-icon {
+    margin-left: 5px;
 }
 
 .hamburguer {

@@ -1,0 +1,10 @@
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+.greeting-heading {
+    width: 500px;
+}

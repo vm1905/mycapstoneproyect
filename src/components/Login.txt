@@ -1,0 +1,21 @@
+import React, { useState } from 'react';
+import LoginForm from './LoginForm';
+
+function Login() {
+    const [loggedInUsername, setLoggedInUsername] = useState('');
+
+    const handleLogin = ({ username }) => {
+        setLoggedInUsername(username);
+        // Here you can pass loggedInUsername to other components as needed
+    };
+
+    return (
+        <div>
+            <h1>Welcome {loggedInUsername ? loggedInUsername : 'Guest'}</h1>
+            <LoginForm onLogin={handleLogin} />
+            {/* Other components that need access to loggedInUsername */}
+        </div>
+    );
+}
+
+export default Login;

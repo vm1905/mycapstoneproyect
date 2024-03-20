@@ -28,7 +28,7 @@ function ScrollToTopBtn() {
     return(
         <>
         <button className='scroll-to-top-btn' onClick={scrollToTop} style={{display: visible ? 'flex' : 'none'}}>
-            <FaAngleUp size={30} />
+            <FaAngleUp size={30} title='Scroll to Top'/>
         </button>
         </>
     );

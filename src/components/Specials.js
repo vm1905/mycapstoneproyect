@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Specials.css';
 import { MdDeliveryDining } from "react-icons/md";
 import Slider from "react-slick";
@@ -47,7 +49,7 @@ function Specials() {
             <section id='specials'>
                 <div className="specials-header">
                     <h3>This week's specials</h3>
-                    <a href="" className="button">online menu</a>
+                    <Link smooth to="/#specials" className="button">online menu</Link>
                 </div>
                 <div className='feature-dishes'>
                     <Slider {...settings}>
@@ -61,7 +63,7 @@ function Specials() {
                                     </div>
                                     <p>{d.description}</p>
                                     <div className='card-link'>
-                                        <a href="#">Order for delivery <span className='delivery-icon'><MdDeliveryDining size={25} /></span></a>
+                                      <Link smooth to="/#specials">Order for delivery <span className='delivery-icon'><MdDeliveryDining size={25} title='Order for delivery' /></span></Link>
                                     </div>
                                 </div>
                             </div>

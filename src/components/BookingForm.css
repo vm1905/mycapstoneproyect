@@ -1,6 +1,7 @@
 form {
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 fieldset {
@@ -25,6 +26,13 @@ select, input{
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
+    outline: none;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+    border: 2px solid var(--yellow);
 }
 
 .booking-button {
@@ -41,4 +49,14 @@ select, input{
 .error {
     font-size: 0.8em;
     color: red;
+    display: flex;
+    align-items: center;
+}
+
+.error-icon {
+    margin-right: 3px;
+}
+
+.error-input input {
+    border: 1px solid red;
 }

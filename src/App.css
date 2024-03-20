@@ -13,6 +13,7 @@
   --salmon: #ee9972;
   --peach: #fbdabb;
   --light-gray: #edefee;
+  --gray: #d9d9d9;
   --charcoal: #333333;
 }
 
@@ -58,6 +59,7 @@ section {
   padding: 100px 290px
 }
 
+section h2,
 section h3 {
   text-align: center;
   text-transform: capitalize;
@@ -81,6 +83,7 @@ nav > ul > li > a {
 .button {
   background: var(--yellow);
   padding: 12px 30px;
+  border: 0;
   border-radius: 10px;
   color: var(--charcoal);
   text-decoration: none;
@@ -88,6 +91,10 @@ nav > ul > li > a {
   font-family: 'karla', sans-serif;
   font-weight: 700;
   white-space: nowrap;
+}
+
+.button:disabled {
+  background: var(--gray);
 }
 
 .card {
@@ -116,6 +123,21 @@ nav > ul > li > a {
   font-family: 'Karla', sans-serif;
   font-weight: 800;
   text-decoration: none;
+}
+
+.error {
+  font-size: 0.8em;
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  margin-right: 3px;
+}
+
+.error-input input {
+  border: 1px solid red;
 }
 
 

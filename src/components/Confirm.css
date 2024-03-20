@@ -1,10 +1,17 @@
+.confirm {
+    display: flex;
+    justify-content: center;
+}
+
 .bookingConfirmation,
 .dateDescription {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    width: 500px;
+}
+
 
 .checkIcon {
     margin-top: 0;
@@ -19,4 +26,8 @@
 
 .dateDescription {
     font-weight: 500;
+}
+
+.button {
+    margin-top: 30px;
 }

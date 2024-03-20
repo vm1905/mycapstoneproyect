@@ -15,14 +15,14 @@ footer ul li:first-child {
   margin-bottom: 20px;
 }
 
-
+footer nav ul li,
 footer nav ul li a{
   color: var(--light-gray);
   text-transform: capitalize;
   line-height: 1.9em;
 }
 
-.email {
+.email-item {
   text-transform: lowercase;
 }
 

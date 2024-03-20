@@ -12,3 +12,20 @@
     height: 100%;
     object-fit: cover;
 }
+
+.reservation-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.reservation-heading {
+    width: 500px;
+}
+
+.arrow-left {
+    color: var(--charcoal);
+    float: left;
+    font-size: 0.9em;
+}
