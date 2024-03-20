@@ -59,7 +59,7 @@ function Specials() {
                                 <div className='card-body'>
                                     <div className='card-title'>
                                     <h4>{d.dish}</h4>
-                                    <span>{d.price}</span>
+                                    <span className='dish-price'>{d.price}</span>
                                     </div>
                                     <p>{d.description}</p>
                                     <div className='card-link'>

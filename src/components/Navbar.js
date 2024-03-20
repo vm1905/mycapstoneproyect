@@ -27,7 +27,7 @@ function Navbar({ loggedIn, username, onLogout }) {
         </ul>
       </nav>
       <div className="hamburguer" onClick={handleClick}>
-        {click ? (<FaTimes size={30} />) : (<FaBars size={30}/>)}
+        {click ? (<FaTimes size={30} />) : (<FaBars size={30}/>)} 
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ function Testimonials() {
               <img src={Customer1} alt="" />
               <h4>James</h4>
               <span className="stars"><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /></span>
-              <q className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quo.</q>
+              <q className="card-text">Your menu is  executed authentically. Do not change a thing!! You are spot on!</q>
             </div>
           </div>
           <div className="card">
@@ -24,7 +24,7 @@ function Testimonials() {
               <img src={Customer2} alt="" />
               <h4>Angela</h4>
               <span className="stars"><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /></span>
-              <q className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quo.</q>
+              <q className="card-text">Our friends were duly impressed and will no doubt be returning soon!</q>
             </div>
           </div>
           <div className="card">
@@ -32,7 +32,7 @@ function Testimonials() {
               <img src={Customer3} alt="" />
               <h4>Rose</h4>
               <span className="stars"><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /></span>
-              <q className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quo.</q>
+              <q className="card-text">I just wanted to let you know that I had one of the best dinners of my life last night…. at your restaurant!!</q>
             </div>
           </div>
           <div className="card">
@@ -40,7 +40,7 @@ function Testimonials() {
               <img src={Customer4} alt="" />
               <h4>Kim</h4>
               <span className="stars"><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /><FaStar size={15} /></span>
-              <q className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quo.</q>
+              <q className="card-text">The food, the service, the host, EVERYTHING was perfect! Keep up the good work !</q>
             </div>
           </div>
         </div>
